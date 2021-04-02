@@ -26,7 +26,10 @@ li{
     font-family: sans-serif;
 }
 .item{
-    margin: 10px;
+    margin-top: 10px;
+}
+.ggl-play{
+    margin-top: 4px;
 }
 .inline{
     
@@ -85,7 +88,7 @@ li{
 
 
 html body ul {
-    margin: 0px 0px 0px 15px;
+    margin: 0px 0px 0px 19px;
     padding: 0;
 }
 .same{
@@ -262,4 +265,37 @@ p.active {
 }
 .margin-t{
     margin-top: 3px;
+}
+.registerr{
+    display: none;
+}
+/* small footer rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
+.nn{
+    background-color: white;
+}
+.nnn{
+    background-color: white;
+}
+.addition-row{
+    height: 130px;
+    margin-top: 30px;
+}
+.justy{
+    margin:40px 0px 0px 170px;
+    
+}
+.main-div{
+    margin-top: 19px;
+}
+.pp{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.spa{
+    font-size: larger;
+    font-family: sans-serif;
+}
+.poly{
+    text-align: center;
+    margin-top: 7px;
 }
