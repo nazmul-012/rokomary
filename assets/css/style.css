@@ -93,11 +93,14 @@ html body ul {
 }
 /* start signup page */
 .first-kit{
-    background-color: orange;
     height: 744px;
     margin-top: 30px;
     border-radius: 4px;
 }
+.move-left{
+    margin-left: 12px;
+}
+
 .second-kit{
     background-color: white;
     height: 720px;
@@ -210,7 +213,7 @@ p.active {
     margin-top: 40px;
     padding: 5px 0;
 }
-.new{
+.new-styl{
     width: 100%;
     overflow: hidden;
     font-size: 16px;
