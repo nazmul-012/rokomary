@@ -400,6 +400,56 @@ p.active {
 .fa-star{
     color: green;
 }
+.product-mt{
+    margin-top: 30px;
+}
+.horizontal{
+    margin-top: 40px;
+}
+.all{
+    margin-top: 40px;
+}
+.btn-gap{
+    column-gap: 10px;
+}
+.stationary-input{
+    padding: 8px 15px;
+    border: 2px solid gray;
+    
+}
+#st-first{
+    outline: none;
+    padding: 8px 15px;
+    border: 2px solid yellowgreen;
+    
+    
+}
+.nav-edit-now{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding: 10px 0 0 0;
+  
+}
+.fa-female, .fa-male{
+    margin:5px;
+    font-size: large;
+}
+.bdfgg{
+    width: 100%;
+}
+.alin-item-sub-footer{
+    margin-top: 6px;
+}
+.take-under{
+    color: red;
+}
+.hr-color{
+   background-color: rgb(139, 139, 139);
+   margin-top: -1px;
+   position: relative;
+}
+
 
 /* register and sign up page mmmmmmmmmmmmmmmmmmm */
 .registerr{
