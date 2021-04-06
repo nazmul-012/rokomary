@@ -274,9 +274,7 @@ p.active {
 .margin-t{
     margin-top: 3px;
 }
-.registerr{
-    display: none;
-}
+
 /* small footer rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
 .nn{
     background-color: white;
@@ -401,4 +399,44 @@ p.active {
 }
 .fa-star{
     color: green;
+}
+
+/* register and sign up page mmmmmmmmmmmmmmmmmmm */
+.registerr{
+    margin-top: -733px;
+    margin-left: 400px;
+    background-color: white;
+    height: 720px;
+    border-radius: 5px;
+    width: 50%;
+}
+.addi-space{
+    margin-left: 20px;
+}
+.play{
+    display: none;
+}
+.slider2{
+    display: none;
+}
+.slider1{
+    margin-left: 20px;
+    width: 1000px;
+}
+.registerr-again{
+   display: none;
+}
+.rg-primary{
+    display: none;
+}
+.text-box2{
+    width: 100%;
+    overflow: hidden;
+    font-size: 16px;
+    border-bottom: 1px solid #acafb0;
+    margin-top: 20px;
+    padding: 3px 0;
+}
+.blue{
+    color: #2874F0;
 }

@@ -30,7 +30,7 @@
 
   <body class="signup-body">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" id="slider-block">
         <div class="col-md-5 first-kit">
 
           <!-- slider .....................slider -->
@@ -61,83 +61,8 @@
 
         </div>
 
-        <div class="col-md-6 second-kit">
+        <div class="col-md-6 second-kit" id="play-none">
           <div class="move-right">
-            <div class="d-flex justify-content-center just">
-              <p class="bt active" id="logIn">SIGN IN</p>
-              <p class="bt" id="signUp">SIGN UP</p>
-            </div>
-            <div class="text-p">
-              <p class="text-center p-styl">
-                Login easily with your facebook or google account
-              </p>
-            </div>
-            <!-- button facebook and google -->
-            <div class="container d-flex justify-content-center for-gap">
-              <div class="button">
-                <button class="btn btn-primary">
-                  <i class="fab fa-facebook-f"></i> Facebook
-                </button>
-              </div>
-              <div class="button">
-                <button class="btn btn-danger">
-                  <i class="fab fa-google"></i> Google
-                </button>
-              </div>
-            </div>
-            <!-- or -->
-            <div class="or">
-              <p class="text-center font-weight-bold try-mt">OR</p>
-            </div>
-            <div class="after-or-text">
-              <p class="text-center do-size">
-                Login with your email or phone number
-              </p>
-            </div>
-            <!-- input field -->
-            <div class="container">
-              <div class="text-box" id="div-border">
-                <i class="far fa-envelope envelope container"></i>
-                <input
-                  type="text"
-                  placeholder="Email or phone"
-                  required="required"
-                  class="input-style"
-                  id="btm-line1"
-                />
-              </div>
-              <span class="span" id="msg"></span>
-              <div class="text-box" id="div-border2">
-                <i class="fas fa-lock lock container"></i>
-                <input
-                  type="password"
-                  placeholder="Password"
-                  required="required"
-                  class="input-style"
-                  id="btm-line2"
-                />
-                <span class="i-decoration span" id="eye"><i class="far fa-eye"></i></span>
-                </div>
-              <span id="eye-msg"></span>
-            </div>
-            <div class=" d-flex py-5 label-end">
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label " for="exampleCheck1">Remember Me</label>
-              </div>
-              <div> <p class="forgot">Forgot password?</p></div>
-            </div>
-            <div class="container extra">
-              <div class="container">
-                <button type="button" class="btn btn-success btn-lg btn-block">SIGN IN</button>
-              </div>
-            </div>
-            <div class="container d-flex justify-content-center item">
-              <div><p class="margin-t"><i>Don't have an Account?</i></p></div>
-              <div><h4 class="color-i">Sign Up Now!</h4></div>
-            </div>
-            <!-- register jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj -->
-            <div class="registerr">
               <div class="d-flex justify-content-center just">
                 <p class="bt active" id="logIn">SIGN IN</p>
                 <p class="bt" id="signUp">SIGN UP</p>
@@ -160,59 +85,60 @@
                   </button>
                 </div>
               </div>
-               <!-- or -->
-            <div class="or">
-              <p class="text-center font-weight-bold try-mt">OR</p>
-            </div>
-            <div class="after-or-text">
-              <p class="text-center do-size">
-                Login with your email or phone number
-              </p>
-            </div>
+              <!-- or -->
+              <div class="or">
+                <p class="text-center font-weight-bold try-mt">OR</p>
+              </div>
+              <div class="after-or-text">
+                <p class="text-center do-size">
+                  Login with your email or phone number
+                </p>
+              </div>
               <!-- input field -->
-            <div class="container">
-              <div class="text-box" id="div-border">
-                <i class="far fa-envelope envelope container"></i>
-                <input
-                  type="text"
-                  placeholder="Email or phone"
-                  required="required"
-                  class="input-style"
-                  id="btm-line1"
-                />
-              </div>
-              <span class="span" id="msg"></span>
-              <div class="text-box" id="div-border2">
-                <i class="fas fa-lock lock container"></i>
-                <input
-                  type="password"
-                  placeholder="Password"
-                  required="required"
-                  class="input-style"
-                  id="btm-line2"
-                />
-                <span class="i-decoration span" id="eye"><i class="far fa-eye"></i></span>
-                </div>
-              <span id="eye-msg"></span>
-            </div>
-            <div class=" d-flex py-5 label-end">
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label " for="exampleCheck1">Remember Me</label>
-              </div>
-              <div> <p class="forgot">Forgot password?</p></div>
-            </div>
-            <div class="container extra">
               <div class="container">
-                <button type="button" class="btn btn-success btn-lg btn-block">SIGN IN</button>
+                <div class="text-box" id="div-border">
+                  <i class="far fa-envelope envelope container"></i>
+                  <input
+                    type="text"
+                    placeholder="Email or phone"
+                    required="required"
+                    class="input-style"
+                    id="btm-line1"
+                  />
+                </div>
+                <span class="span" id="msg"></span>
+                <div class="text-box" id="div-border2">
+                  <i class="fas fa-lock lock container"></i>
+                  <input
+                    type="password"
+                    placeholder="Password"
+                    required="required"
+                    class="input-style"
+                    id="btm-line2"
+                  />
+                  <span class="i-decoration span" id="eye"><i class="far fa-eye"></i></span>
+                  </div>
+                <span id="eye-msg"></span>
+              </div>
+              <div class=" d-flex py-5 label-end">
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label " for="exampleCheck1">Remember Me</label>
+                </div>
+                <div> <p class="forgot">Forgot password?</p></div>
+              </div>
+              <div class="container extra">
+                <div class="container">
+                  <button type="button" class="btn btn-success btn-lg btn-block">SIGN IN</button>
+                </div>
+              </div>
+              <div class="container d-flex justify-content-center item">
+                <div><p class="margin-t"><i>Don't have an Account?</i></p></div>
+                <div><h4 class="color-i">Sign Up Now!</h4></div>
               </div>
             </div>
-            <div class="container d-flex justify-content-center item">
-              <div><p class="margin-t"><i>Don't have an Account?</i></p></div>
-              <div><h4 class="color-i">Sign Up Now!</h4></div>
-            </div>
-            </div>
-          </div>
+            <!-- register jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj -->
+         
         </div>
       </div>
     </div>
@@ -276,6 +202,166 @@
     		 
   })
     </script>
+
+    <!-- register rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-5 first-kit slider2">
+
+          <!-- slider .....................slider -->
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner move-left">
+              <div class="carousel-item active">
+                <img src="assets/image/slider/20tk.png" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/image/slider/add_to_cart.png" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/image/slider/gift.png" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/image/slider/home_delivery.png" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/image/slider/login_cod.png" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/image/slider/payment.png" alt="...">
+              </div>
+            </div>
+           
+            
+          </div>
+
+        </div>
+
+        <div class="col-md-6 second-kit rg-primary" id="registerr-change">
+          <div class="move-right">
+              <div class="d-flex justify-content-center just">
+                <p class="bt active" id="logIn2">SIGN IN</p>
+                <p class="bt" id="signUp2">SIGN UP</p>
+              </div>
+              <div class="text-p">
+                <p class="text-center p-styl">
+                  Register fast with your facebook or google
+                </p>
+              </div>
+              <!-- button facebook and google -->
+              <div class="container d-flex justify-content-center for-gap">
+                <div class="button">
+                  <button class="btn btn-primary">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                  </button>
+                </div>
+                <div class="button">
+                  <button class="btn btn-danger">
+                    <i class="fab fa-google"></i> Google
+                  </button>
+                </div>
+              </div>
+              <!-- or -->
+              <div class="or">
+                <p class="text-center font-weight-bold try-mt">OR</p>
+              </div>
+              <div class="after-or-text">
+                <p class="text-center do-size">
+                  Register with your information
+                </p>
+              </div>
+              <!-- input field -->
+              <div class="container">
+                <div class="text-box2" id="div-border-again">
+                  <i class="far fa-user lock container"></i>
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    required="required"
+                    class="input-style"
+                    id="btm-line1"
+                  />
+                </div>
+                <div class="text-box2" id="div-border-again">
+                  <i class="far fa-envelope envelope container"></i>
+                  <input
+                    type="text"
+                    placeholder="jhon.doe@gmail.com"
+                    required="required"
+                    class="input-style"
+                    id="btm-line1"
+                  />
+                </div>
+                <div class="text-box2" id="div-border-again">
+                  <i class="fas fa-phone-alt lock container"></i>
+                  <input
+                    type="text"
+                    placeholder="Mobile No"
+                    required="required"
+                    class="input-style"
+                    id="btm-line1"
+                  />
+                </div>
+                
+                <div class="text-box2" id="div-border-again">
+                  <i class="fas fa-lock lock container"></i>
+                  <input
+                    type="password"
+                    placeholder="Password"
+                    required="required"
+                    class="input-style"
+                    id="btm-line2"
+                  />
+                 
+                  </div>
+                
+              </div>
+              <div class=" d-flex py-5 label-end">
+                <div class="form-group form-check addi-space">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label " for="exampleCheck1">I agree to the <span class="blue">Terms of Use</span> and <span class="blue">Privacy Policy</span></label>
+                </div>
+                
+              </div>
+              <div class="container extra">
+                <div class="container">
+                  <button type="button" class="btn btn-success btn-lg btn-block">Create Account</button>
+                </div>
+              </div>
+              <div class="container d-flex justify-content-center item">
+                <div><p class="margin-t"><i>Already have an Account?</i></p></div>
+                <div><h4 class="color-i">Login Now!</h4></div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+         document.getElementById('signUp').addEventListener('click',function(){
+           document.getElementById('slider-block').className="slider1";
+           document.getElementById('play-none').className="play";
+           document.getElementById('registerr-change').className="registerr";
+         })
+         document.getElementById('signUp').addEventListener('click',function(){
+           document.getElementById('signUp2').className="bt active";  
+         })
+         document.getElementById('signUp').addEventListener('click',function(){
+           document.getElementById('logIn2').className="new-stop";  
+         })
+    </script>
+      <script>
+        document.getElementById('logIn2').addEventListener('click',function(){
+          document.getElementById('slider-block').className="row justify-content-center";
+          document.getElementById('play-none').className="col-md-6 second-kit";
+          document.getElementById('registerr-change').className="registerr-again";
+        })
+        document.getElementById('logIn2').addEventListener('click',function(){
+          document.getElementById('logIn').className="bt active"; 
+        })
+        document.getElementById('logIn2').addEventListener('click',function(){
+          document.getElementById('signUp').className="new-stop"; 
+        })
+   </script>
     <!-- small footer rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr -->
     <div class="row addition-row">
       <div class="col-md-4 nn">
