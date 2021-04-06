@@ -438,6 +438,11 @@ p.active {
 .bdfgg{
     width: 100%;
 }
+.cart:hover{
+    height: 80px;
+    width: 180px;
+    transition: 1s;
+}
 .alin-item-sub-footer{
     margin-top: 6px;
 }
